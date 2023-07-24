@@ -1,0 +1,154 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name = "format-detection" content="telephone = no" />
+<link href="style/waplogin.css" rel="stylesheet" type="text/css">
+<title>查询结果-职业技能证书查询系统</title>
+</head>
+<body style="height:100%;">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="layer/layer.js"></script>
+<script type="text/javascript" src="js/xadmin.js"></script>
+<style>
+.tr_title{background:#ffefd8;color:#666666;}
+.tr_content{background:#fffdf6;color:#666666;}
+/*培训记录样式*/
+.nolist{background:white;color:red;font-family:微软雅黑;font-size:14px;font-weight:bold;text-align:center;padding-top:5px;padding-bottom:5px;}
+.nolist:hover{background:#efefef;}
+.list1{background:white;color:red;border-bottom:1px dashed #e0e0e0;font-family:微软雅黑;font-size:14px;text-align:left;padding-top:5px;padding-bottom:5px;}
+.list1 span{padding-left:10px;}
+.list1 label{color:#c1c2c3}
+.list1:hover{background:#efefef;}
+.lists{background:white;border-bottom:1px dashed #e0e0e0;font-family:微软雅黑;font-size:14px;text-align:left;padding-top:5px;padding-bottom:5px;}
+.lists span{padding-left:10px;}
+.lists label{color:#c1c2c3}
+.lists:hover{background:#efefef;}
+.box{width:95%;margin-left:auto;margin-right:auto;margin-top:20px;padding:3px;border:1px solid white;text-align:center;}
+.xu{
+height:30px;line-height:30px;margin-left:auto;margin-right:auto;color:white;text-align:center;font-size:14px;font-family:微软雅黑;color:red;border-radius:1px;
+        background: linear-gradient(left, transparent,white, transparent);
+        background: -ms-linear-gradient(left,transparent,white,transparent);
+        background: -webkit-linear-gradient(left, transparent,white, transparent);
+        background: -moz-linear-gradient(left, transparent,white, transparent);
+}
+/*列表 链接文本样式*/
+a.hr:link{color:red;text-decoration:none;} /*常规时候的样式*/
+a.hr:visited{color:red;text-decoration:none;}  /*访问过后的样式*/
+a.hr:hover{color:red;text-decoration:underline;}/*鼠标指上去的样式*/
+a.hr:active{color:red;text-decoration:none;font-size:}
+</style>
+<div align="center" style="margin-top:5%;"><img src="C:\Users\lenovo\Desktop\查询系统.jpg" width="80%" /></div>  
+
+<script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ $("#contents img").each(function(index, element){
+  var bili= 6/10;
+  var width = $(element).width();
+  $(element).css("max-width","100%");
+ });
+});
+</script>
+ 
+<div class="box">
+<table align="center" border="0" cellspacing="1" cellpadding="8" width="100%" style="background:#acacaa;margin-top:0px;">
+  <tr class="tr_title"><th colspan="2">基本信息</th></tr>
+   <tr class="tr_content">
+    <td class="center" width="100"><div align="center">照　　片</div></td>
+    <td><img src="C:\Users\lenovo\Desktop\证件照.jpg" style="width:86px;height:110px;border:2px solid #f0eded;" /></td>
+  </tr>
+  <tr class="tr_content">
+    <td class="center" width="100"><div align="center">姓　　名</div></td>
+    <td>曹琦<br>Cao qi</td>
+  </tr>
+ <tr class="tr_content">
+    <td class="center" width="100"><div align="center">性　　别</div></td>
+    <td>女</td>
+  </tr>
+    <tr class="tr_content">
+    <td class="center" width="100"><div align="center">出生年月</div></td>
+    <td>1975-08-03</td>
+  </tr>
+<tr class="tr_content">
+    <td class="center" width="100"><div align="center">文化程度</div></td>
+    <td>高中</td>
+  </tr>
+<tr class="tr_content">
+    <td class="center" width="100"><div align="center">身份证号</div></td>
+    <td>340403197508031229</td>
+  </tr>
+<tr class="tr_title"><th colspan="2">证书信息</th></tr>
+ <tr class="tr_content">
+    <td class="center" width="100"><div align="center">证书编号</div></td>
+    <td style="background:url(/images/fangwei.jpg);background-size:100% 100%;text-shadow:2px 2px 0px white">201703055275921</td>
+  </tr>
+<tr class="tr_content">
+    <td class="center" width="100"><div align="center">岗位名称</div></td>
+    <td>母婴护理师<br>Gold Medal mother and child care teacher</td>
+  </tr>
+<tr class="tr_content">
+    <td class="center" width="100"><div align="center">技能等级</div></td>
+    <td>高级<br>senior</td>
+  </tr>
+<tr class="tr_content">
+    <td class="center" width="100"><div align="center">理论成绩</div></td>
+    <td>90</td>
+  </tr>
+<tr class="tr_content">
+    <td class="center" width="100"><div align="center">操作成绩</div></td>
+    <td>96</td>
+  </tr>
+<tr class="tr_content">
+    <td class="center" width="100"><div align="center">评定结果</div></td>
+    <td>合格</td>
+  </tr>
+<tr class="tr_content">
+    <td class="center" width="100"><div align="center">培训日期</div></td>
+    <td>2017/5/12</td>
+  </tr>
+<tr class="tr_content">
+    <td class="center" width="100"><div align="center">颁发日期</div></td>
+    <td>2017/6/12</td>
+  </tr>
+  <tr class="tr_title">
+    <th colspan="2">其他</th>
+  </tr>
+    <tr class="tr_content">
+    <td colspan="2" class="left" id="contents"></td>
+    </tr>
+  <tr class="tr_title">
+    <th colspan="2">培训记录</th>
+  </tr>
+  <tr class="tr_content">
+  <td colspan="2">
+  
+    <div class="nolist">暂无内容</div>
+	
+  </td>
+  </tr>
+  <tr class="tr_title">
+    <th colspan="2">查询结果说明</th>
+  </tr>
+    <tr class="tr_content">
+    <td colspan="2" class="left"><p>
+	<span style="background-color:#FBFBFB;"><span style="background-color:#FBFBFB;"><span style="font-size:16px;"> 成绩有效！</span></span></span><span><span><br />
+</span></span> 
+</p>
+<p>
+	<span style="background-color:#FBFBFB;"><span style="background-color:#FBFBFB;"><span style="font-size:16px;"><span style="font-size:16px;background-color:#FBFBFB;"></span></span></span></span> 
+</p></td>
+    </tr>
+</table>
+</div>
+
+<p align="center"><input type="hidden" class="btn_m" value="查看电脑端证书" onClick="window.location.href='yulan.asp?ZsId=201703055275921&lx=1'" /></p>
+
+<p align="center"><input type="button" class="btn_m" value="返回上页" onClick="history.go(-1)" /></p>
+<p align="center"><input type="button" class="btn_m" value="退出查询" onClick="window.location.href='wap.asp'" /></p>
+
+<div align="center" style="margin-top:50px;font-size:15px;line-height:10px;">
+<p>Copyright◎职教研究中心</p>
+</div>
+</body>
+</html>
